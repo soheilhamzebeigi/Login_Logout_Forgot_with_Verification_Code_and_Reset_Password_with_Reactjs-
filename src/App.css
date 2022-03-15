@@ -93,8 +93,16 @@ form label {
     padding: 0
 }
 
+label {
+    cursor: pointer;
+    color: rgb(18, 58, 235);
+    display: block;
+    padding: 10px;
+    margin: 3px;
+}
+
 .right-label {
-    color: #222;
+    color: #1C8EF9;
     float: right;
     cursor: pointer,
 }
@@ -108,6 +116,16 @@ input {
 }
 
 #sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sub_btn2 {
     display: block;
     width: 100%;
     padding: .3rem;
