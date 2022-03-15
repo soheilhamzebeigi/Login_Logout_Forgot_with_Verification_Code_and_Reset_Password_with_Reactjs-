@@ -8,7 +8,7 @@ export default function CodePage() {
         <div className="text-center m-5-auto">
             <h2>Verification Code</h2>
             <h5>Please Enter Your Code</h5>
-            <form action="/login">
+            <form action="/reset">
                 <p>
                     <label id="reset_pass_lbl">Code</label><br/>
                     <input type="code" name="code" required />
